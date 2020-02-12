@@ -1,0 +1,31 @@
+{
+    "config": {
+        "camera":{
+            "help": "0:disable 1:enable",
+            "value": "1"
+        },
+        "camera-type":{
+            "help": "Please see EasyAttach_CameraAndLCD/README.md",
+            "value": null
+        },
+        "lcd":{
+            "help": "0:disable 1:enable",
+            "value": "1"
+        },
+        "lcd-type":{
+            "help": "Please see EasyAttach_CameraAndLCD/README.md",
+            "value": null
+        }
+    },
+    "target_overrides": {
+        "*": {
+            "platform.stdio-baud-rate": 115200,
+            "platform.stdio-convert-newlines": true,
+            "target.macros_add": ["MBED_CONF_APP_MAIN_STACK_SIZE=8192"]
+        },
+        "GR_MANGO": {
+            "target.bootloader_img" : "bootloader_d_n_d/GR_MANGO_boot.bin",
+            "target.app_offset"     : "0x11000"
+        }
+    }
+}
