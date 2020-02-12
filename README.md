@@ -3,7 +3,7 @@ It is a sample program for OMRON MEMS thermal sensors D6T_44L_06 with **2JCIE-EV
 
 D6T_44L_06 is a sensor that can measure the surface temperature without touching the object.
 
-English : https://www.components.omron.com/product-detail?partId=396
+English : https://www.components.omron.com/product-detail?partId=396  
 日本語 : https://www.omron.co.jp/ecb/product-detail?partNumber=D6T
 
 2JCIE-EV01 sensor evaluation boards are Open Platforms by OMRON corporation and
