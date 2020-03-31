@@ -89,7 +89,9 @@
 #define SUB_PHASE_DEMO2     SUB_PHASE_MAX*3
 #define PHASE_DELAY         (200)
 
-#define M_PI                (3.14)
+#ifndef M_PI
+#define M_PI                (3.1415926535897932384626433832795)
+#endif
 
 static DisplayBase Display;
 
